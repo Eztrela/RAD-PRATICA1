@@ -1,0 +1,17 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Lojas</h1>
+
+<div id="lojas">
+  <% @lojas.each do |loja| %>
+    <%= render loja %>
+    <p>
+      <%= link_to "Show this loja", loja %>
+    </p>
+  <% end %>
+</div>
+
+
+
+
+
